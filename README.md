@@ -16,7 +16,15 @@ An open-source, low-cost prototype circuit that detects eye blinks to control Io
 | **Feedback**                  | LED (visual), Buzzer (audio)              |
 | **Communication**             | Bluetooth Low Energy (BLE) – HID Keyboard |
 
-## EOG placement
+## EOG placement 
 <p align="center">
   <img src="images/eog_placement.png" width="420">
 </p>
+
+## Code Structure
+- `led_eye_blink.ino` – LED on/off with blinks
+- `dual_toggle.ino` – use eye-blink or a push button (higher priority)
+- `drowsiness_detector.ino` – blink-duration based safety system  
+- `user_admin_blinks.ino` – FreeRTOS-based admin/user priority control
+
+## Schematic and PCB
