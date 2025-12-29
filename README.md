@@ -28,3 +28,12 @@ An open-source, low-cost prototype circuit that detects eye blinks to control Io
 - `user_admin_blinks.ino` – FreeRTOS-based admin/user priority control
 
 ## Schematic and PCB
+
+| Circuit Schematic | PCB Layout |
+|-------------------|------------|
+| ![](images/eog_schematic.png) | ![](images/eog_pcb.png) |
+
+### 3D PCB View
+<p align="center">
+  <img src="images/eog_pcb_3D.png" width="600">
+</p>
