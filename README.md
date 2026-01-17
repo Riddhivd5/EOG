@@ -34,6 +34,9 @@ An open-source, low-cost prototype circuit that detects eye blinks to control Io
 4. Upload the target sketch and power the ESP32.
 5. Set the trigger threshold slightly below the blink peak to ensure reliable detection.
 
+## Demonstration
+https://github.com/Riddhivd5/EOG-based-controller/blob/main/20251115_154448_1~2.mp4
+
 ## Schematic and PCB
 
 | Circuit Schematic | PCB Layout |
